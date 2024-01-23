@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Thinksysuser\AppData\Local\Temp\testng-eclipse--703712129\testng-customsuite.xml</span>
+                    <span>C:\Users\rbran\AppData\Local\Temp\testng-eclipse--889662990\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="raBi.MavenJava.extended_thread" class="method navigator-link" hash-for-method="fristmethod">fristmethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="raBi.MavenJava.multi_threading" class="method navigator-link" hash-for-method="thread_extended">thread_extended</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="importantClassesJava.LocaleClass" class="method navigator-link" hash-for-method="testLocales">testLocales</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,29 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">raBi.MavenJava.multi_threading</span>
+              <span class="class-name">importantClassesJava.LocaleClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="thread_extended">
-                  </a> <!-- thread_extended -->
-                  <span class="method-name">thread_extended</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">raBi.MavenJava.extended_thread</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="fristmethod">
-                  </a> <!-- fristmethod -->
-                  <span class="method-name">fristmethod</span>
+                  <a name="testLocales">
+                  </a> <!-- testLocales -->
+                  <span class="method-name">testLocales</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Thinksysuser\AppData\Local\Temp\testng-eclipse--703712129\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\rbran\AppData\Local\Temp\testng-eclipse--889662990\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -166,8 +146,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;raBi.MavenJava.multi_threading&quot;/&gt;
-      &lt;class name=&quot;raBi.MavenJava.extended_thread&quot;/&gt;
+      &lt;class name=&quot;importantClassesJava.LocaleClass&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -181,7 +160,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (2 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,20 +186,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'thread_extended')
-data.setCell(0, 2, 'raBi.MavenJava.multi_threading')
-data.setCell(0, 3, 3025);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'fristmethod')
-data.setCell(1, 2, 'raBi.MavenJava.extended_thread')
-data.setCell(1, 3, 3021);
+data.setCell(0, 1, 'testLocales')
+data.setCell(0, 2, 'importantClassesJava.LocaleClass')
+data.setCell(0, 3, 10);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 10 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -246,17 +221,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">raBi.MavenJava.multi_threading</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">importantClassesJava.LocaleClass</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">thread_extended</span>
+                <span class="method-name">testLocales</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">raBi.MavenJava.extended_thread</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">fristmethod</span>
-                <span class="method-start">3041 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
